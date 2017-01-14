@@ -126,6 +126,9 @@
 
 			this.selectlabel.on( 'mousedown.dropdown', function( event ) {
 				self.opened ? self.close() : self.open();
+				if(self.opened){
+					setTimeout(function(){ self.close() }, 3000);
+				}
 				return false;
 
 			} );

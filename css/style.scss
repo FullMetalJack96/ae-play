@@ -184,7 +184,7 @@ button:focus {
         top: 200vh;
     }
 
-    .item-content {
+    .item-content, .item-content1 {
         position: relative;
 
         h1 {
@@ -586,7 +586,7 @@ button:focus {
         left: 0;
     }
 
-    .item-content {
+    .item-content, .item-content1 {
         position: relative;
 
         h1 {
@@ -885,4 +885,16 @@ button:focus {
 /* Active state */
 .shine-effect:active:after {
     opacity: 0;
+}
+@media screen and (min-width: 1800px) {
+  .item-row1{
+    h1{
+      margin-top: 20% !important;
+    }
+  }
+  .item-content{
+    h1{
+      margin-top: 15% !important;
+    }
+  }
 }
