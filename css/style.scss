@@ -157,7 +157,7 @@ button:focus {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -65%);
     }
 
     #item-1-gradient {
@@ -255,9 +255,9 @@ button:focus {
 
         button:hover {
 
-          -webkit-box-shadow: 6px 10px 31px -9px rgba(0,0,0,0.7);
-          -moz-box-shadow: 6px 10px 31px -9px rgba(0,0,0,0.7);
-          box-shadow: 6px 10px 31px -9px rgba(0,0,0,0.7);
+          -webkit-box-shadow: 20px 20px 31px -9px rgba(0,0,0,0.4);
+          -moz-box-shadow: 20px 20px 31px -9px rgba(0,0,0,0.4);
+          box-shadow: 20px 20px 31px -9px rgba(0,0,0,0.4);
         }
     }
 
@@ -874,8 +874,7 @@ button:focus {
     height: 400%;
     opacity: 0;
     transform: rotate(27deg);
-    background: rgba(255, 255, 255, 0.13);
-    background: linear-gradient( to right, rgba(255, 255, 255, 0.13) 0%, rgba(255, 255, 255, 0.13) 77%, rgba(255, 255, 255, 0.5) 92%, rgba(255, 255, 255, 0.0) 100% );
+    background: linear-gradient( to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.03) 77%, rgba(255, 255, 255, 0.5) 92%, rgba(255, 255, 255, 0.0) 100% );
 }
 /* Hover state - trigger effect */
 .shine-effect:hover:after {
@@ -891,11 +890,6 @@ button:focus {
     opacity: 0;
 }
 @media screen and (min-width: 1800px) {
-  .item-row1{
-    h1{
-      margin-top: 20% !important;
-    }
-  }
   .item-content{
     h1{
       margin-top: 15% !important;
