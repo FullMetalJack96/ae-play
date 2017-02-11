@@ -19,19 +19,19 @@ $('.play-video1, .play-video2, .play-video3').on('click', function(e) {
     var width = $(".video-thumbnail1").width();
     switch (this.dataset.count) {
         case "1":
-            $('.video-placeholder1').append('<iframe width="' + width + '" height="' + height + '" src="https://www.youtube.com/embed/ngElkyQ6Rhs" frameborder="0" allowfullscreen></iframe>');
+            $('.video-placeholder1').append('<iframe width="' + width + '" height="' + height + '" src="https://www.youtube.com/embed/wPReC4t4LJ4?autoplay=1" frameborder="0" allowfullscreen></iframe>');
             $(".video-thumbnail1").css('display', 'none');
             $(".play-video1").css('display', 'none')
             break;
         case "2":
             $(".video-thumbnail2").css('display', 'none')
             $(".play-video2").css('display', 'none')
-            $('.video-placeholder2').append('<iframe width="' + width + '" height="' + height + '" src="https://www.youtube.com/embed/ngElkyQ6Rhs" frameborder="0" allowfullscreen></iframe>');
+            $('.video-placeholder2').append('<iframe width="' + width + '" height="' + height + '" src="https://www.youtube.com/embed/ngElkyQ6Rhs?autoplay=1" frameborder="0" allowfullscreen></iframe>');
             break;
         case "3":
             $(".video-thumbnail3").css('display', 'none')
             $(".play-video3").css('display', 'none')
-            $(".video-placeholder3").append('<iframe width="' + width + '" height="' + height + '" src="https://www.youtube.com/embed/ngElkyQ6Rhs" frameborder="0" allowfullscreen></iframe>');
+            $(".video-placeholder3").append('<iframe width="' + width + '" height="' + height + '" src="https://www.youtube.com/embed/ngElkyQ6Rhs?autoplay=1" frameborder="0" allowfullscreen></iframe>');
             break;
     }
 });
